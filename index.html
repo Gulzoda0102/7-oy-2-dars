@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-black dark:text-white p-6 flex flex-col items-center">
+    <div class="w-full max-w-4xl">
+        <div class="flex justify-between items-center mb-4">
+            
+            <input id="search" type="text" placeholder="Search users..." 
+                class="p-2 border rounded w-1/2 bg-white dark:bg-gray-700 dark:text-white">
+            
+            
+            <button id="darkMode" class="p-2 bg-gray-800 text-white rounded">🌙 Dark Mode</button>
+        </div>
+
+        <ul id="ota" class="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center"></ul>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+

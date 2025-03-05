@@ -1,0 +1,17 @@
+
+.dark-mode {
+    background-color: black; 
+    color: white; 
+}
+
+
+.card {
+    background-color: white; 
+    color: black; 
+}
+
+
+.dark-mode .card {
+    background-color: white !important; 
+    color: black !important;
+}
